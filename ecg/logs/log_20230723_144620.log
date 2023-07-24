@@ -1,0 +1,40 @@
+2023-07-23 14:46:20,207 - INFO - Script started.
+2023-07-23 14:47:19,489 - INFO - Best model saved to: ./models/best_model_best.pth
+2023-07-23 14:50:27,656 - INFO - Best model saved to: ./models/best_model_best.pth
+2023-07-23 14:51:48,860 - INFO - Best model saved to: ./models/best_model_best.pth
+2023-07-23 14:52:28,298 - INFO - Best model saved to: ./models/best_model_best.pth
+2023-07-23 14:53:03,584 - INFO - Best model saved to: ./models/best_model_best.pth
+2023-07-23 14:53:37,036 - INFO - Best model saved to: ./models/best_model_best.pth
+2023-07-23 14:53:42,389 - INFO - Script finished.
+Epoch 1/10, Train Loss: 0.2078, Test Loss: 0.1143, Test F1: 0.8673
+Epoch 2/10, Train Loss: 0.0610, Test Loss: 0.1136, Test F1: 0.8425
+Epoch 3/10, Train Loss: 0.0477, Test Loss: 0.1412, Test F1: 0.8221
+Epoch 4/10, Train Loss: 0.0356, Test Loss: 0.2185, Test F1: 0.7980
+Epoch 5/10, Train Loss: 0.0363, Test Loss: 0.0979, Test F1: 0.8683
+Epoch 6/10, Train Loss: 0.0404, Test Loss: 0.1128, Test F1: 0.8513
+Epoch 7/10, Train Loss: 0.0241, Test Loss: 0.1153, Test F1: 0.8769
+Epoch 8/10, Train Loss: 0.0273, Test Loss: 0.0916, Test F1: 0.8796
+Epoch 9/10, Train Loss: 0.0167, Test Loss: 0.1089, Test F1: 0.8846
+Epoch 10/10, Train Loss: 0.0200, Test Loss: 0.0880, Test F1: 0.8893
+Test Loss: 0.0880, Test F1: 0.8893
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.99      0.98      0.99     18118
+     Class 1       0.72      0.88      0.79       556
+     Class 2       0.93      0.97      0.95      1448
+     Class 3       0.63      0.87      0.73       162
+     Class 4       0.99      0.99      0.99      1608
+
+    accuracy                           0.98     21892
+   macro avg       0.85      0.94      0.89     21892
+weighted avg       0.98      0.98      0.98     21892
+
+
+Confusion Matrix:
+[[17770   190    77    60    21]
+ [   52   492     7     2     3]
+ [   21     6  1400    21     0]
+ [   10     0    11   141     0]
+ [    9     0     3     1  1595]]

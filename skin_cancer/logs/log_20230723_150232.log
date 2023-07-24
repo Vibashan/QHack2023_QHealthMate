@@ -1,0 +1,59 @@
+2023-07-23 15:02:32,236 - INFO - Script started.
+2023-07-23 15:02:50,206 - INFO - Best model saved to: ./models/best_model_final.pth
+2023-07-23 15:03:00,334 - INFO - Best model saved to: ./models/best_model_final.pth
+2023-07-23 15:03:10,492 - INFO - Best model saved to: ./models/best_model_final.pth
+2023-07-23 15:03:20,205 - INFO - Best model saved to: ./models/best_model_final.pth
+2023-07-23 15:03:38,639 - INFO - Best model saved to: ./models/best_model_final.pth
+2023-07-23 15:03:48,012 - INFO - Best model saved to: ./models/best_model_final.pth
+2023-07-23 15:03:57,564 - INFO - Best model saved to: ./models/best_model_final.pth
+2023-07-23 15:05:58,809 - INFO - Best model saved to: ./models/best_model_final.pth
+2023-07-23 15:06:30,790 - INFO - Script finished.
+Epoch 1/25, Train Loss: 7.2424, Test Loss: 120.6201, Test F1: 0.0723
+Epoch 2/25, Train Loss: 2.4808, Test Loss: 42.7898, Test F1: 0.2120
+Epoch 3/25, Train Loss: 1.1628, Test Loss: 6.3422, Test F1: 0.2644
+Epoch 4/25, Train Loss: 1.0198, Test Loss: 1.6208, Test F1: 0.5414
+Epoch 5/25, Train Loss: 0.9829, Test Loss: 3.1275, Test F1: 0.5108
+Epoch 6/25, Train Loss: 0.8829, Test Loss: 1.5009, Test F1: 0.6104
+Epoch 7/25, Train Loss: 1.0107, Test Loss: 1.0158, Test F1: 0.6268
+Epoch 8/25, Train Loss: 0.8432, Test Loss: 0.8691, Test F1: 0.7073
+Epoch 9/25, Train Loss: 0.7724, Test Loss: 0.7872, Test F1: 0.6936
+Epoch 10/25, Train Loss: 0.7416, Test Loss: 0.8010, Test F1: 0.7048
+Epoch 11/25, Train Loss: 0.6969, Test Loss: 0.8304, Test F1: 0.6994
+Epoch 12/25, Train Loss: 0.6479, Test Loss: 0.8535, Test F1: 0.6934
+Epoch 13/25, Train Loss: 0.6658, Test Loss: 0.9269, Test F1: 0.6634
+Epoch 14/25, Train Loss: 0.6777, Test Loss: 0.9786, Test F1: 0.6793
+Epoch 15/25, Train Loss: 0.5773, Test Loss: 1.0755, Test F1: 0.7018
+Epoch 16/25, Train Loss: 0.5928, Test Loss: 0.8377, Test F1: 0.6687
+Epoch 17/25, Train Loss: 0.5544, Test Loss: 1.0635, Test F1: 0.6986
+Epoch 18/25, Train Loss: 0.5496, Test Loss: 1.1647, Test F1: 0.6212
+Epoch 19/25, Train Loss: 0.5015, Test Loss: 1.0000, Test F1: 0.6649
+Epoch 20/25, Train Loss: 0.4844, Test Loss: 0.8870, Test F1: 0.7049
+Epoch 21/25, Train Loss: 0.5303, Test Loss: 0.9827, Test F1: 0.6338
+Epoch 22/25, Train Loss: 0.5018, Test Loss: 0.9677, Test F1: 0.7407
+Epoch 23/25, Train Loss: 0.4668, Test Loss: 1.1384, Test F1: 0.6735
+Epoch 24/25, Train Loss: 0.4937, Test Loss: 1.4121, Test F1: 0.6532
+Epoch 25/25, Train Loss: 0.4441, Test Loss: 0.9040, Test F1: 0.7322
+Test Loss: 0.9677, Test F1: 0.7407
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.87      0.67      0.76        88
+     Class 1       0.58      0.91      0.71        46
+     Class 2       0.68      0.86      0.76        35
+     Class 3       0.78      0.47      0.58        30
+     Class 4       0.91      0.77      0.83        13
+     Class 5       0.86      0.75      0.80         8
+
+    accuracy                           0.73       220
+   macro avg       0.78      0.74      0.74       220
+weighted avg       0.77      0.73      0.73       220
+
+
+Confusion Matrix:
+[[59 21  6  2  0  0]
+ [ 1 42  2  0  1  0]
+ [ 2  2 30  1  0  0]
+ [ 5  6  5 14  0  0]
+ [ 0  1  1  0 10  1]
+ [ 1  0  0  1  0  6]]
